@@ -1,0 +1,11 @@
+[package]
+name = "pluginable-content-package-ffi"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "pluginable_content_package"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+pluginable-content-package-core = { path = "../pluginable-content-package-core" }

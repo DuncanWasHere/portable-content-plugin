@@ -1,5 +1,6 @@
 [workspace]
 members = [
     "pluginable-content-package-core",
+    "pluginable-content-package-ffi",
 ]
 resolver = "2"
