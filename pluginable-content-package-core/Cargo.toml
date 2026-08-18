@@ -1,0 +1,12 @@
+[package]
+name = "pluginable-content-package-core"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "pluginable_content_package_core"
+path = "src/lib.rs"
+
+[dependencies]
+semver = "1"
+sha2 = "0.10"

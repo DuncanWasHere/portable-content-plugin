@@ -1,0 +1,7 @@
+/target
+**/bin/
+**/obj/
+**/.godot/
+/.local-tools/
+/.local-data/
+/schemas/
